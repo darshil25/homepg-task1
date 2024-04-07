@@ -1,0 +1,25 @@
+.nav_line{
+  position: relative;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.4s;
+}
+.nav_line:hover, .nav_line.focus {
+  color: #3560a4;
+}
+.nav_line::after{
+  content:'';
+  height: 3px;
+  border-radius: 5px;
+  width: 100%;
+  background: #002550;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  opacity: 0;
+  transition: all 0.2s;
+  pointer-events: none;
+}
+.nav_line:hover::after, .nav_line.focus::after{
+  opacity: 1;
+}
