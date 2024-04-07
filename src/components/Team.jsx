@@ -26,7 +26,7 @@ const Team = () => {
 
 
   return (
-    <div className='flex flex-col justify-center items-center mt-20 gap-10'>
+    <div className='flex flex-col justify-center items-center mt-20 gap-10 '>
       <div>
         <h1 className='text-3xl relative'>Our Team Members
           <span className='absolute bottom-0 left-0 w-full h-1 bg-[#002550] rounded-md'></span>

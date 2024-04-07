@@ -1,7 +1,6 @@
 import React from 'react'
-import { HiArrowNarrowRight } from 'react-icons/hi'
 
-const Card = ({ img, title, desc, price }) => {
+const Card = ({ img, title, desc}) => {
 
 
   return (
